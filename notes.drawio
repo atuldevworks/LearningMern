@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="c_EHRjwDko8VzCd9NMD1" name="Notes">
-        <mxGraphModel dx="2178" dy="1441" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2178" dy="1175" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -14,6 +14,9 @@
                     <mxGeometry x="-0.3668" y="-1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="94" style="edgeStyle=none;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="7" target="93">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="Section 1- Before web gev Journey&#xa;&lt;p class=&quot;p2&quot;&gt;&lt;br&gt;&lt;/p&gt;&#xa;&lt;ul class=&quot;ul1&quot;&gt;&#xa;&lt;ul class=&quot;ul1&quot;&gt;&#xa;&lt;li class=&quot;li1&quot;&gt;Course Introduction Roadmap&lt;/li&gt;&#xa;&lt;li class=&quot;li1&quot;&gt;Meet your Instructor&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&#xa;&lt;li class=&quot;li1&quot;&gt;Lets Talk About AI Hype&lt;/li&gt;&#xa;&lt;li class=&quot;li1&quot;&gt;Jobs Salary Range and Skills&lt;/li&gt;&#xa;&lt;li class=&quot;li1&quot;&gt;What tools you need for web development&lt;/li&gt;&#xa;&lt;li class=&quot;li1&quot;&gt;How to setup&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;your code editor&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
                     <mxGeometry x="-815" y="-757" width="332" height="365" as="geometry"/>
@@ -305,6 +308,9 @@
                         <mxGeometry x="-720" y="17359" width="440" height="1270" as="geometry"/>
                     </mxCell>
                 </UserObject>
+                <mxCell id="93" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Tools required&lt;/h1&gt;&lt;p&gt;google chrome&lt;/p&gt;&lt;p&gt;vs code&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="-292" y="-634.5" width="180" height="120" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
