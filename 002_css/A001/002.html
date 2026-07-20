@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .loginCard {
+        border: 1px solid black;
+        width: 400px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(241, 236, 229);
+      }
+      .loginCard form {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+        gap: 10px;
+        overflow: scroll;
+      }
+    </style>
+    <title>login Page</title>
+  </head>
+  <body>
+    <div class="loginCard">
+      <h2>Login</h2>
+      <form action="#" method="post">
+        <label for="email">Enter your email</label>
+        <input
+          type="email"
+          name="email"
+          id=""
+          placeholder="enter your email here"
+        />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id=""
+          placeholder="Enter your password here"
+        />
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </form>
+    </div>
+  </body>
+</html>
