@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css selectors</title>
+  </head>
+
+  <style>
+    /*universal */
+
+    * {
+      background-color: lightgoldenrodyellow;
+    }
+
+    /*
+    type
+    */
+
+    p {
+      margin: 10px 10px 10px 10px;
+    }
+
+    /*
+    class
+    */
+
+    .clas1 {
+      padding: 10px 10px;
+    }
+
+    /*id*/
+    #id1 {
+      background-color: tomato;
+    }
+
+    /*attribute*/
+
+    input[type="text"] {
+      border: 1px solid green;
+    }
+
+    /*decendent*/
+
+    article p {
+      color: #1a1a1a;
+    }
+    /*child*/
+    ul > li {
+      color: tomato;
+    }
+    /*adjecent sibling*/
+    h1 + p {
+      background-color: aqua;
+    }
+    /*general sibling */
+    h2 ~ p {
+      background-color: bisque;
+    }
+
+
+    /*pseudo selector*/
+    a:hover{
+        background-color: tomato;
+    }
+
+    /*pseudo element */
+    a::first-letter{
+        font-weight: bold;
+    }
+
+    /*grouping*/
+    
+  </style>
+  <body>
+    <!-- 
+    universal
+    
+    type
+    
+    class
+
+    ID
+
+    Attribute
+
+    Descendant
+
+    Child
+
+    adjecent sibling
+
+    general sibling
+
+    pseudo class 
+
+    pseudo element
+
+    Grouping 
+    -->
+  </body>
+</html>
