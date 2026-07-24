@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropdown navbar</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background-color: white;
+            box-sizing: border-box;
+            height: 100vh;
+        }
+        nav{
+            width: 100%;
+            height: 50px;
+            background-color: antiquewhite;
+            position: absolute;
+        }
+
+        nav ul{
+            list-style: none;
+            display: flex;
+            gap:20px;
+
+        }
+
+        nav ul li a{
+            width: 100%;
+            position: relative;
+            text-decoration: none;
+            color:black
+
+        }
+        .drp_content{
+            width: 100px;
+            height: auto;
+            background-color: rgba(255, 99, 71, 0.146);
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            top:30px;
+            display: none;
+            gap:10px;
+            align-items: left;
+            margin:0;
+            padding:0;
+            
+        }
+        .drp_content ul li{
+           
+           padding-top:10px
+
+            
+        }
+        nav ul .drp:hover .drp_content{
+            display: block;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="drp"><a href="#" >About</a>
+            
+            <ul class="drp_content">
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Hobbies</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Careers</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
